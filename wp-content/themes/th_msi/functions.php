@@ -4,9 +4,10 @@
 /*-1--------AGREGANDO MENUS----------*/
 function msi_menus(){
     register_nav_menus(array(
-        'menu-anuncios'=>('Top-Menu Anuncios', 'msi'),
-        'menu-principal'=>('Menu Principal', 'msi'),
-        'redes-sociales'=>('Redes Sociales', 'msi'),
+        'menu-anuncios'=>__('Top-Menu Anuncios','msi'),
+        'menu-principal'=>__('Menu Principal','msi'),
+        'redes-sociales'=>__('Redes Sociales','msi'),
+        'menu-dseguro'=>__('Menu Dis-Seguro','msi')
     ));
 }
  
