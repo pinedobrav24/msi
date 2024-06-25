@@ -1,6 +1,17 @@
 
 <?php
 
+/*-3--------HABILITANDO OPCIONES-----*/
+function msi_setup(){
+    //titulos para SEO
+    add_theme_support('title-tag');
+
+    //imagen destacada
+    add_theme_support('post-thumbnails');
+}
+
+add_action('after_setup_theme','msi_setup');
+
 /*-1--------AGREGANDO MENUS----------*/
 function msi_menus(){
     register_nav_menus(array(
