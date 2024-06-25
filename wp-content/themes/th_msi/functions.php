@@ -7,7 +7,9 @@ function msi_menus(){
         'menu-anuncios'=>__('Top-Menu Anuncios','msi'),
         'menu-principal'=>__('Menu Principal','msi'),
         'redes-sociales'=>__('Redes Sociales','msi'),
-        'menu-dseguro'=>__('Menu Dis-Seguro','msi')
+        'menu-dseguro'=>__('Menu Dis-Seguro','msi'),
+        'menu-locales'=>__('Menu Locales','msi'),
+        'menu-servicios'=>__('Menu Servicios','msi')
     ));
 }
  
